@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "machine-learning"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Paul Bichl", email = "paul.bichl@edu.fh-joanneum.at" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "matplotlib",
+  "scikit-learn",
+  "ipykernel",
+]
+
+[project.urls]
+Documentation = "https://github.com/Paul Bichl/machine-learning#readme"
+Issues = "https://github.com/Paul Bichl/machine-learning/issues"
+Source = "https://github.com/Paul Bichl/machine-learning"
+
+[tool.hatch.version]
+path = "src/machine_learning/__about__.py"
+
+[tool.hatch.envs.default]
+type = "virtual"
