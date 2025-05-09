@@ -1,20 +1,31 @@
 # machine learning
 
-[![PyPI - Version](https://img.shields.io/pypi/v/machine-learning.svg)](https://pypi.org/project/machine-learning)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/machine-learning.svg)](https://pypi.org/project/machine-learning)
+## Overview
 
------
+This repository contains some jupyter notebooks containing basic machine laerning examples.
+## Getting Started
 
-## Table of Contents
-
-- [Installation](#installation)
-- [License](#license)
-
-## Installation
-
-```console
-pip install machine-learning
-```
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/machine-learning.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd machine-learning
+    ```
+3. Install the required dependencies:
+    ```bash
+    hatch run true
+    ```
+4. Troubleshooting:
+    ```bash
+    hatch env prune 
+    ```
+    and
+    ```bash
+    hatch env create
+    hatch run true 
+    ```
 
 ## License
 
